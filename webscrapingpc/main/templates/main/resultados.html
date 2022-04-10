@@ -1,6 +1,28 @@
 {% extends 'main/base.html' %}
-
+{% load static %}
+{% block addl_css %}<link type="text/css" href='{% static "plantillaresultados.css" %}' rel="stylesheet">{% endblock %}
 {% block Title %}Resultados de búsqueda{% endblock %}
 {% block content %}
 <h1>{{searched}}</h1>
+
+<main>
+    <section class="cards">
+        <div class="card" >
+            <div class="card_content">
+              <p class="card_title text--title">
+                  Parte de CPU
+              </p>
+              <p class="card_desc text--desc">
+                  Parte vieja del CPU de mi abuela
+              </p>
+              <div class="card_info">
+                  <p class="text--medium">Computadora</p>
+                  <p class="card_price text--link">Ir al Link</p>
+              </div>
+            </div>
+          </div> 
+    </section>
+</main>
+
+
 {% endblock %}

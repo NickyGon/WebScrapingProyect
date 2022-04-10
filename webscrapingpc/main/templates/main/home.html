@@ -1,0 +1,30 @@
+
+{% extends 'main/base.html' %}
+{% load static %}
+{% block addl_css %}<link type="text/css" href='{% static "plantillasearch.css" %}' rel="stylesheet">{% endblock %}
+{% block Title %}Home{% endblock %}
+{% block content %}
+
+<div class="container d-flex justify-content-center">
+    <form class="searcher" name="search-form" id="search-form"  method="POST" action="{% url 'resultados' %}">
+        {% csrf_token %}
+        <div class="search_wrap search_wrap_3">
+            <div class="search_box">
+                <input type="search" name="searched" class="input" placeholder="Buscar keyword...">
+                <div class="btn btn_common" onclick="document.forms['search-form'].submit();">
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+
+</div>
+
+<script>
+    function myAlert(){
+        alert("I am an alert box!");
+    }
+    </script>
+{% endblock %}
+

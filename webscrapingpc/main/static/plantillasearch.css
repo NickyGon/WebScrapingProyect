@@ -6,9 +6,14 @@
 	box-sizing: border-box;
 	font-family: 'Noto Sans KR', sans-serif;
 }
+content {
+    display: flex;
+    justify-content: center;
+  }
 
 body{
 	background: #d5d8da;
+    display: block;
 }
 
 .header{

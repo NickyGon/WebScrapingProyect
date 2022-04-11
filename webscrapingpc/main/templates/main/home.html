@@ -6,6 +6,12 @@
 {% block content %}
 
 <div class="container d-flex justify-content-center">
+    <img src="{% static 'logoNewEggWSGetterTitle.png' %}" style="width:35%;height:auto; align-self: center; display: flex;" />
+</div>
+<div class="container d-flex justify-content-center">
+    <h1>Bienvenido a NewEgg WS Getter</h1>
+</div>
+<div class="container d-flex justify-content-center">
     <form class="searcher" name="search-form" id="search-form"  method="POST" action="{% url 'resultados' %}">
         {% csrf_token %}
         <div class="search_wrap search_wrap_3">

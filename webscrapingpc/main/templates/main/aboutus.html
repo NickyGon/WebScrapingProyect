@@ -1,0 +1,16 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block addl_css %}<link type="text/css" href='{% static "plantillaaboutus.css" %}' rel="stylesheet">{% endblock %}
+{% block Title %}Nuestra App{% endblock %}
+{% block content %}
+<div class="wrapper">
+    <h2>Esta aplicación</h2>
+    <div>
+      <p>NewEgg WS Getter es una aplicación generada en Python y Django para la implementación de 
+          web scraping de la página web NewEgg para obtención de información de componentes de CPU a partir de una busqueda 
+          por search bar</p>
+    </div>
+  </div>
+{% endblock %}
+
+

@@ -6,6 +6,7 @@
     margin: 0;
 }
 
+
 body{
     background: #d5d8da;
 }
@@ -17,6 +18,7 @@ main{
     padding: 60px;
 }
 
+
 .text--desc{
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 13px;
@@ -24,6 +26,8 @@ main{
     font-weight: 170;
     color: rgb(0, 0, 0);
 }
+
+h1 { color: #090320; font-family:  'Open Sans', sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; display: flex; position:relative}
 
 .text--title{
     font-family: 'Open Sans', sans-serif;

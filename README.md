@@ -9,6 +9,8 @@ En este proyecto se centraliza el uso de Web Scraping que según fuentes "El ras
 ## 2. Instalar Django (se puede usar la siguiente línea de código para ello en cuyo caso ya se tenga instalado pip que es lo mas recomendable)
 ```
 pip install django
+pip install bs4
+pip install request
 ```
 ## 3. Ya teniendo las librerías necesarias instaladas, clonamos el repositorio del proyecto (trabajamos en master como main branch asi que clonamos el repositorio y hacemos un pull del branch o en su defecto clonamos el branch directamente).
 ### comandos git para ello

@@ -5,17 +5,29 @@ En este proyecto se centraliza el uso de Web Scraping que según fuentes "El ras
 
 ### Los requisitos para la ejecución del proyecto son:
 
-## 1. Tener Python instalado (la mejor versión actualizada mejor).
-## 2. Instalar Django (se puede usar la siguiente línea de código para ello en cuyo caso ya se tenga instalado pip que es lo mas recomendable)
+### 1. Tener Python instalado (la mejor versión actualizada mejor).
+### 2. Instalar Django (se puede usar la siguiente línea de código para ello en cuyo caso ya se tenga instalado pip que es lo mas recomendable)
 ```
 pip install django
-pip install bs4
-pip install request
 ```
-## 3. Ya teniendo las librerías necesarias instaladas, clonamos el repositorio del proyecto (trabajamos en master como main branch asi que clonamos el repositorio y hacemos un pull del branch o en su defecto clonamos el branch directamente).
-### comandos git para ello
+### 3. Ya teniendo las librerías necesarias instaladas, clonamos el repositorio del proyecto (trabajamos en master como main branch asi que clonamos el repositorio y hacemos un pull del branch o en su defecto clonamos el branch directamente).
+#### comandos git para ello
 ```
 git clone https://github.com/NickyGon/WebScrapingProyect.git                  <-- clona el repositorio
 git clone --branch master https://github.com/NickyGon/WebScrapingProyect.git  <-- clona el repositorio pero del branch master específicamente
 git pull --rebase origin master                                               <-- jala los datos del branch master despues de haber clonado el repositorio
 ```
+### 4. Después de ya tener las librerías y el proyecto en nuestro IDE de confianza (en nuestro caso preferimos usar VSCode por la comodidad) podemos ejecutar primero el script de la carpeta "webscrapingscript" cuyo archivo es "scrap.py" (podemos usar el comando de la terminal)
+```
+>python scrap.py
+```
+### 5. Después nos generará un archivo tipo JSON que almacena todos los datos de la página https://www.newegg.com/Video-Cards-Video-Devices/Category/ID-38 \
+el archivo se guardará como "cards.json". Este archivo es usado en el HTML "resultados.html" donde visualiza los datos extraidos de  dicha página
+### 6. Ahora para ejecutar la página web de manera localhost en la terminal usamos el siguiente comando
+```
+>python manage.py runserver
+```
+(ojo, ejecutar dentro de la carpeta "webscrapingpc" donde se encuentra manage.py)
+### 7. después de ejecutar el servidor nos mostrara la url del localhost (generalmente asignado a su ip local , ejemplo http://127.0.0.1:5500/)
+### 8. Y ya se esta corriendo el localhosts, solo necesitamos entrar al url asignado (el ip) en nuestro navegador web y se verá la página ya creada
+### 9. Para visualizar datos extraidos (el uso de web scraping soap) solo necesitamos buscar en la caja de texto lo que necesitamos, como por ejemplo "Asrock" y nos mostrará tarjetas de newegg de la marca Asrcok

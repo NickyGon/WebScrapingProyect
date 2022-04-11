@@ -1,8 +1,9 @@
 # WebScrapingProyect
-##Introducción
+## Introducción
+
 Scraping es un término en inglés que, traducido, literalmente quiere decir “rascado”. Sin embargo, en un contexto de tecnología y análisis de información, se refiere a la limpieza y filtro de datos. Muchas veces, una sección relevante de información hacia un sector no está al alcance de un click en el Internet: existiendo restricciones del acceso a esta, o con un formato inentendible a primera vista y cambiante por cada página web que existe si se intenta inspeccionarla. Para solucionar este problema, se empezó a utilizar la técnica Web Scrapping, una clase de diversos métodos capaces de identificar y extraer datos escondidos en los documentos de especificación de la web, haciéndolos útiles para cualquier utilidad posible en otros entornos.
 
-##Proyecto de Web Scraping con interfaz Django
+## Proyecto de Web Scraping con interfaz Django
 
 En este proyecto se centraliza el uso de Web Scraping que según fuentes "El raspado web, la recolección web o la extracción de datos web es el raspado de datos que se utiliza para extraer datos de sitios web."
 

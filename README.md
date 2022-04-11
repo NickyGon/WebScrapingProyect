@@ -1,7 +1,9 @@
 # WebScrapingProyect
 ## Introducción
 
-Scraping es un término en inglés que, traducido, literalmente quiere decir “rascado”. Sin embargo, en un contexto de tecnología y análisis de información, se refiere a la limpieza y filtro de datos. Muchas veces, una sección relevante de información hacia un sector no está al alcance de un click en el Internet: existiendo restricciones del acceso a esta, o con un formato inentendible a primera vista y cambiante por cada página web que existe si se intenta inspeccionarla. Para solucionar este problema, se empezó a utilizar la técnica Web Scrapping, una clase de diversos métodos capaces de identificar y extraer datos escondidos en los documentos de especificación de la web, haciéndolos útiles para cualquier utilidad posible en otros entornos.
+Scraping es un término en inglés que, traducido, literalmente quiere decir “rascado”. Sin embargo, en un contexto de tecnología y análisis de información, se refiere a la limpieza y filtro de datos. Muchas veces, una sección relevante de información hacia un sector no está al alcance de un click en el Internet: existiendo restricciones del acceso a esta, o con un formato inentendible a primera vista y cambiante por cada página web que existe si se intenta inspeccionarla. Para solucionar este problema, se empezó a utilizar la técnica Web Scrapping, una clase de diversos métodos capaces de identificar y extraer datos escondidos en los documentos de especificación de la web, haciéndolos útiles para cualquier utilidad posible en otros entornos. 
+
+Pudimos determinar como un uso funcional la recolección de una lista de artículos para computadoras de una página web especializada en el caso, mediante una aplicación llamada NewEgg WS Getter. Se determinó que este sería un buen uso ya que podríamos simular, aunque sea en una pequeña escala dado el tiempo de realización del proyecto, la búsqueda de artículos ofrecidos en la base de datos de una tienda online de aparatos de computadora, obteniendo información importante como el precio, el nombre, la calificación y la imagen, junto a la búsqueda de estos objetos mediante un filtro de una barra de texto según nuestras preferencias.
 
 ## Proyecto de Web Scraping con interfaz Django
 
@@ -35,3 +37,4 @@ el archivo se guardará como "cards.json". Este archivo es usado en el HTML "res
 ### 7. después de ejecutar el servidor nos mostrara la url del localhost (generalmente asignado a su ip local , ejemplo http://127.0.0.1:5500/)
 ### 8. Y ya se esta corriendo el localhosts, solo necesitamos entrar al url asignado (el ip) en nuestro navegador web y se verá la página ya creada
 ### 9. Para visualizar datos extraidos (el uso de web scraping soap) solo necesitamos buscar en la caja de texto lo que necesitamos, como por ejemplo "Asrock" y nos mostrará tarjetas de newegg de la marca Asrcok
+

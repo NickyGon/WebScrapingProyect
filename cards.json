@@ -1,0 +1,74 @@
+[
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-930-056-V07.jpg",
+    "name": "ASRock Radeon RX 6700 XT Challenger D Gaming Graphic Card, 12GB GDDR6 VRAM, AMD RDNA2 (RX6700XT CLD 12G)",
+    "rating": "rated 4.8 out of 5",
+    "price": "$568.99"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-126-557-V01.jpg",
+    "name": "ASUS Dual GeForce RTX 3050 Video Card DUAL-RTX3050-O8G",
+    "rating": "rated 4.7 out of 5",
+    "price": "$379.99"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-126-556-25.jpg",
+    "name": "ASUS ROG Strix GeForce RTX 3050 Video Card ROG-STRIX-RTX3050-O8G-GAMING",
+    "rating": "rated 4.8 out of 5",
+    "price": "$429.99"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-126-553-V01.jpg",
+    "name": "ASUS Dual Radeon RX 6500 XT Video Card DUAL-RX6500XT-O4G",
+    "rating": "rated 4.3 out of 5",
+    "price": "$249.99"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-126-550-V11.jpg",
+    "name": "ASUS ROG Strix NVIDIA GeForce RTX 3080 OC Edition Gaming Graphics Card (PCIe 4.0, 12GB GDDR6X, LHR, HDMI 2.1, DisplayPort 1.4a, Axial-tech Fan Design, 2.9-slot, Super Alloy Power II, GPU Tweak II)",
+    "rating": "rated 4.1 out of 5",
+    "price": "$1,399.99"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-932-438-V05.jpg",
+    "name": "GIGABYTE Eagle GeForce RTX 3080 Ti Video Card GV-N308TEAGLE OC-12GD",
+    "rating": "rated 3.5 out of 5",
+    "price": "$1,429.99"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-932-435-V06.jpg",
+    "name": "GIGABYTE AORUS GeForce RTX 3080 Ti Video Card GV-N308TAORUS M-12GD",
+    "rating": "rated 4.5 out of 5",
+    "price": "$1,449.99"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-932-444-01.jpg",
+    "name": "GIGABYTE Eagle GeForce RTX 3070 Ti Video Card GV-N307TEAGLE OC-8GD",
+    "rating": "rated 4.9 out of 5",
+    "price": "$699.99"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-126-558-V01.jpg",
+    "name": "ASUS Phoenix GeForce RTX 3050 Video Card PH-RTX3050-8G",
+    "rating": "rated 4.7 out of 5",
+    "price": "$299.99"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-137-656-V01.jpg",
+    "name": "MSI Ventus GeForce RTX 3080 Ti Video Card RTX 3080 Ti VENTUS 3X 12G",
+    "rating": "rated 5 out of 5",
+    "price": "Out of Stock"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-487-549-V07.jpg",
+    "name": "EVGA GeForce RTX 3080 Ti XC3 GAMING Video Card, 12G-P5-3953-KR, 12GB GDDR6X, iCX3 Cooling, ARGB LED, Metal Backplate",
+    "rating": "rated 5 out of 5",
+    "price": "Out of Stock"
+  },
+  {
+    "image": "https://c1.neweggimages.com/ProductImageCompressAll300/14-126-545-V01.jpg",
+    "name": "ASUS Noctua OC Edition GeForce RTX 3070 Video Card RTX3070-O8G-NOCTUA (LHR)",
+    "rating": "rated 5 out of 5",
+    "price": "Out of Stock"
+  }
+]

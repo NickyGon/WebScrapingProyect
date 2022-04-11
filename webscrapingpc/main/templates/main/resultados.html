@@ -7,20 +7,25 @@
 
 <main>
     <section class="cards">
+        {% for item in items %}
         <div class="card" >
+            <div class="card_image-container">
+                <img src="{{item.image}}"/>
+            </div>
             <div class="card_content">
               <p class="card_title text--title">
-                  Parte de CPU
+                  {{item.name}}
               </p>
               <p class="card_desc text--desc">
-                  Parte vieja del CPU de mi abuela
+                  {{item.rating}}
               </p>
               <div class="card_info">
-                  <p class="text--medium">Computadora</p>
-                  <p class="card_price text--link">Ir al Link</p>
+                  <p class="text--medium">{{item.price}}</p>
+                  <p class="card_price text--link"><a href="{{item.link}}">Ir al link</a></p>
               </div>
             </div>
           </div> 
+        {% endfor %}
     </section>
 </main>
 
